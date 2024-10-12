@@ -12,7 +12,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 // Import your logo image using a relative path
-import logo1 from 'E:/NotesHub/ScholarStation/React-version/frontend/src/assets/Logo/logo1.png'; // Adjust the path based on your directory structure
+import logo1 from '../../assets/Logo/logo1.png'; // Adjust the path based on your directory structure
 
 const Navbar = () => {
     const { token } = useSelector((state) => state.auth);
